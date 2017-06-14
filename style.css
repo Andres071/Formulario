@@ -1,0 +1,43 @@
+html {
+  display: table;
+  margin: auto;
+}
+body{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#titulo{
+  margin: 0 auto;
+}
+
+#parrafo {
+  margin: 0 auto;
+  border: solid 1px black;
+  width: 60%;
+  border-radius: 5%;
+  color: black;
+  padding: 10px 10px 10px 10px;
+}
+
+#Principal{
+  margin: 0 auto;
+  border: solid 1px black;
+  width: 100%;
+  border-radius: 5%;
+  color: black;
+  padding: 20px 10px 20px 10px;
+}
+
+#nombres, #mail{
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#genero {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#bottom {
+  margin-top: 20px;
+  margin-left: 10px;
+}
