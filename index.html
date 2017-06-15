@@ -15,32 +15,34 @@
         <p>Por favor diligencie todos los datos solicitados a continuación</p>
     </div>
 
-    <div id="datos" class="">
-      <h1>Datos</h1>
-    </div>
+
 
 <div id="Principal"class="">
+
+  <div id="datos" class="">
+    <h1>Datos</h1>
+  </div>
 
     <div id="nombres"class="">
       <span id="Nombre">
         <label for="Nombre">Nombre</label>
-        <input type="text" name="" value="Escriba aqui">
+        <input type="text" placeholder="Nombre" name="" value="">
       </span>
       <span id="Apellido">
         <label for="Apellidos">Apellidos</label>
-        <input type="text" name="" value="Escriba aqui">
+        <input type="text" placeholder="Apellidos" name="" value="">
       </span>
     </div>
 
     <div id="mail"class="">
       <span id="Mail">
         <label for="e-mail">e-mail</label>
-        <input type="text" name="" value="@">
+        <input type="e-mail" placeholder="e-mail" name="" value="">
       </span>
 
       <span id="Facebook">
         <label for="Facebook">Facebook</label>
-        <input type="text" name="" value="@facebook">
+        <input type="text" placeholder="Facebook" name="" value="">
       </span>
     </div>
 
@@ -71,5 +73,41 @@
     </div>
   </div>
 
+  <div id="numerodos"class="">
+
+  <div id="detalles"class="">
+    <h1>Detalles</h1>
+  </div>
+
+    <div id="peticion"class="">
+      <label for="peticion">Peticion</label>
+      <select class="" name="">
+        <option value="Ingreso">Ingreso</option>
+        <option value="Reintegro">Reintegro</option>
+        <option value="Retiro">Retiro</option>
+        <option value="Otros">Otros</option>
+      </select>
+    </div>
+
+
+
+    <div id="observaciones"class="">
+      <label for="observaciones">Observaciones</label><br>
+      <textarea name="observaciones" id="observaciones" maxlength="140" placeholder="Diganos su opinión..."rows="8" cols="80"></textarea>
+    </div>
+
+    <div id="fecha"class="">
+      <label for="fecha">Fecha</label><br>
+      <input type="date" name="Fecha" value=""><br>
+    </div>
+
+    <div id="mailradicado"class="">
+      <label for="url">Página web</label>
+      <input type="url" placeholder="Web" name="" value="">
+      <label for="url">Radicado</label>
+      <input type="number" placeholder="Radicado" name="" value="">
+    </div>
+
+  </div>
   </body>
 </html>
